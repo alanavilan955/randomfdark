@@ -1,0 +1,20 @@
+# Confidential data
+*.xlsx
+*.xlsm
+*.xls
+*.csv
+!normalized_template.csv
+
+# Trained artifacts
+*.joblib
+*.pkl
+outputs/
+
+# Python / Streamlit
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+.DS_Store
